@@ -9,7 +9,7 @@ RUN apt-get update \
         libsasl2 \
         sasl2-bin \
         libsasl2-modules \
-        mutt
+        mutt \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
