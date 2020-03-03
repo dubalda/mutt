@@ -6,7 +6,7 @@ RUN apt-get update \
         lsb-release \
         ca-certificates \
         curl \
-        libsasl2 \
+        libsasl2-2 \
         sasl2-bin \
         libsasl2-modules \
         mutt \
